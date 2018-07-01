@@ -1,6 +1,6 @@
 # cleandesktop
 
-_
+Moves documents out of the Desktop directory.
 
 ## Getting Started
 
@@ -13,4 +13,3 @@ _
 ### Installing
 
 _
-
