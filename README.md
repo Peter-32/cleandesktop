@@ -8,7 +8,7 @@ Using virtualenv is optional - I include instructions below.
 
 - A Mac or Linux terminal
 - Python
-- Python module virtualenv
+- The Python module virtualenv
 
 ### Installing
 
