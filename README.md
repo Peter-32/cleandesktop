@@ -2,12 +2,13 @@
 
 Moves documents on the `Desktop` directory into a folder called `Temp` hourly.  
 
+Using virtualenv is optional - I include instructions below.
+
 ### Prerequisites
 
-- A terminal
-- crontab
-- Python installed
-- virtualenv installed on Python
+- A Mac or Linux terminal
+- Python
+- Python module virtualenv
 
 ### Installing
 
