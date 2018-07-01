@@ -1,17 +1,28 @@
 # cleandesktop
 
-Moves documents on the `Desktop` directory into a folder called `Temp` hourly.
+Moves documents on the `Desktop` directory into a folder called `Temp` hourly.  
 
 ### Prerequisites
 
 - A terminal
 - crontab
+- Python installed
+- virtualenv installed on Python
 
 ### Installing
 
+##### Venv
+
+1. Put the code below inside the file `~/.bash_profile`
+2. Run mk_venv_3 inside this project's directory
+
+		mk_venv_3 () {
+			virtualenv -p /usr/local/bin/python3.6 venv
+		}
+
 ##### Configuring
 
-Edit these lines of code in the `cleandesktop.py` file:
+Edit the values of these variables in the `cleandesktop.py` file:
 
 - `desktop_directory = "/Users/peterjmyers/Desktop"`
 - `do_not_clean_files_and_folders = ['Documents', 'Temp', 'Inbox', 'Trash', '.DS_Store']`
